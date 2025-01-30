@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+.btn-container{
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+    padding: 10px;
+
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border:10px solid black;
+    margin: 2rem;
+}
+.flash{
+    opacity: 0.5;
+    transition: opacity 0.2s;
+}
+.red{
+    background-color: palevioletred;
+
+}
+.yellow{
+    background-color: orange;
+
+}
+.purple{
+    background-color: #818ff9;
+
+}
+.green{
+    background-color: #63aac0;
+
+}
+.userflash
+{ background-color: green;
+    transition: background-color=green .2s;
+
+}
